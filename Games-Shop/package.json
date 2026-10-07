@@ -1,0 +1,40 @@
+{
+  "name": "games-shop",
+  "version": "1.0.0",
+  "description": "Una Tienda de VideoJuegos",
+  "keywords": [
+    "videogames",
+    "shop",
+    "react",
+    "e-commerce",
+    "web"
+  ],
+  "homepage": "https://github.com/Koridormi/VideoGame-Shop#readme",
+  "bugs": {
+    "url": "https://github.com/Koridormi/VideoGame-Shop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koridormi/VideoGame-Shop.git"
+  },
+  "license": "MIT",
+  "author": "Koridormi",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "sass": "^1.105.1",
+    "vite": "^8.3.3"
+  }
+}
